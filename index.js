@@ -4,22 +4,22 @@ const port = 3000;
 
 app.use(express.static(__dirname));
 
-app.get('/', (req, res) => {
+app.get('/anything/', (req, res) => {
   res.sendFile(__dirname + '/anything/index.html');
 });
 
-app.get('/index', (req, res) => {
+app.get('/anything/index', (req, res) => {
   res.sendFile(__dirname + '/anything/index.html');
 });
 
-app.get('/MacDeMarco', (req, res) => {
+app.get('/anything/MacDeMarco', (req, res) => {
   res.sendFile(__dirname + '/anything/index.html');
 });
 
-app.get('/about', (req, res) => {
+app.get('/anything/about', (req, res) => {
   res.sendFile(__dirname + '/anything/about.html');;
 });;
-app.get('/FreeTickets', (req, res) => {
+app.get('/anything/FreeTickets', (req, res) => {
   res.sendFile(__dirname + '/anything/freetickets.html');;
 });
 
