@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
 
-app.get('/Home', (req, res) => {
+app.get('/index', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
 
