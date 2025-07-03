@@ -20,7 +20,7 @@ app.get('/about', (req, res) => {
   res.sendFile(__dirname + '/about.html');;
 });;
 app.get('/FreeTickets', (req, res) => {
-  res.sendFile(__dirname + '/freetickets.html');;
+  res.sendFile(__dirname + '/anything/freetickets.html');;
 });
 
 app.listen(port, () => {
